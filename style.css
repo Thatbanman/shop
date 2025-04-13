@@ -1,0 +1,38 @@
+body {
+    background-color: #00aaff;
+    font-family: Arial, sans-serif;
+}
+
+.category {
+    padding: 20px;
+}
+
+.category h2 {
+    display: inline-block;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.game-entry {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #aa44aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #4422aa;
+    font-weight: bold;
+}
+
+.description {
+    color: black;
+}
