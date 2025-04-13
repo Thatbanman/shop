@@ -1,3 +1,3 @@
-function downloadGame(filename) {
-    window.location.href = filename;
+function openLink(url) {
+    window.open(url, "_blank");
 }
